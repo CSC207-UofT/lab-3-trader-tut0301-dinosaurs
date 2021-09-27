@@ -1,6 +1,6 @@
 public class Cow implements Domesticatable, Tradable {
-  int milk_volume;
+  int MilkVolume;
   
   public Cow() {
-    this.milk_volume = 6
+    this.MilkVolume = 6
     }
