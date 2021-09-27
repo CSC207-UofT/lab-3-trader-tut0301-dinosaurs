@@ -1,7 +1,7 @@
-public class Cow implements Domesticatable, Tradable {
+public class MilkCow implements Domesticatable, Tradable {
   int MilkVolume;
   
-  public Cow() {
+  public MilkCow() {
     this.MilkVolume = 6
     }
   
