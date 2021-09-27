@@ -4,11 +4,11 @@ import static org.junit.Assert.*;
 
 
 public class CowTest {
-    Cow c;
+    MilkCow c;
 
     @Before
     public void setUp() throws Exception {
-        c = new Cow();
+        c = new MilkCow();
     }
 
     @Test(timeout = 50)
