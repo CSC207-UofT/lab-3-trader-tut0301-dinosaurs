@@ -4,3 +4,8 @@ public class Cow implements Domesticatable, Tradable {
   public Cow() {
     this.MilkVolume = 6
     }
+  
+  @Override
+    public String sound() {
+        return "Moo";
+    }
