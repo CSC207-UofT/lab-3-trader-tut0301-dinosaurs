@@ -9,3 +9,9 @@ public class Cow implements Domesticatable, Tradable {
     public String sound() {
         return "Moo";
     }
+  
+  @Override
+    public int getPrice() {
+        return 20;
+    }
+}
