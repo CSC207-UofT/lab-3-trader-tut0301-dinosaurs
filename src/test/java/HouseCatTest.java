@@ -13,7 +13,7 @@ public class HouseCatTest {
 
     @Test(timeout = 50)
     public void TestSound() {
-        assertEquals("Angry Cat Noises", c.sound());
+        assertEquals("Meow", c.sound());
     }
 
     @Test(timeout = 50)
@@ -30,7 +30,7 @@ public class HouseCatTest {
     @Test(timeout = 50)
     public void TestDowngradeSpeed() {
         c.downgradeSpeed();
-        assertEquals(9, c.getMaxSpeed());
+        assertEquals(8, c.getMaxSpeed());
     }
 
     @Test(timeout = 50)
