@@ -20,4 +20,10 @@ public class CowTest {
     public void TestSound() {
         asserEquals("Moo", c.Sound());
     }
+    
+    @Test(timeout = 50)
+    public void TestGetPrice() {
+        assertEquals(20, c.getPrice());
+    }
+
 }
