@@ -15,3 +15,9 @@ public class CowTest {
     public void TestMilkVolume() {
         assertEquals(6, c.MilkVolume());
     }
+    
+    @Test(timeout = 50)
+    public void TestSound() {
+        asserEquals("Moo", c.Sound());
+    }
+}
